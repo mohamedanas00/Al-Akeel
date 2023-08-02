@@ -1,0 +1,598 @@
+{
+	"info": {
+		"_postman_id": "57d77cd7-d167-4d81-afb3-b9cb98d7e461",
+		"name": "RedHat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25070384"
+	},
+	"item": [
+		{
+			"name": "Customer",
+			"item": [
+				{
+					"name": "EditOrder",
+					"item": [
+						{
+							"name": "EditOrderByAdd",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n  { \"ids\": 2 }\r\n]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/enterprise-java-task/api/customer/EditOrderByAdd/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"enterprise-java-task",
+										"api",
+										"customer",
+										"EditOrderByAdd",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CancelOrder",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/enterprise-java-task/api/customer/cancelOrder/2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"enterprise-java-task",
+										"api",
+										"customer",
+										"cancelOrder",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteMealOrder",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n  { \"ids\": 1 }\r\n]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/enterprise-java-task/api/customer/Delete/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"enterprise-java-task",
+										"api",
+										"customer",
+										"Delete",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "SignIn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"email\": \"ali@77\",\r\n        \"password\": \"125\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/customer/signIN",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"customer",
+								"signIN"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SignUp",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\":\"ali\",\r\n        \"email\": \"ali@77\",\r\n        \"password\": \"125\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/customer/signUP",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"customer",
+								"signUP"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Make Order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n  { \"ids\": 1 }\r\n\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/customer/MakeOrder/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"customer",
+								"MakeOrder",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ShowAllResturant",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/customer/showAllResturant",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"customer",
+								"showAllResturant"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetOrderById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/customer/showOrderByID/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"customer",
+								"showOrderByID",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Owner",
+			"item": [
+				{
+					"name": "ChangeMenu",
+					"item": [
+						{
+							"name": "DeleteMeal",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/enterprise-java-task/api/owner/1/deletemeals/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"enterprise-java-task",
+										"api",
+										"owner",
+										"1",
+										"deletemeals",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "addMeal",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"lolla\",\r\n    \"price\":9\r\n} ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/enterprise-java-task/api/owner/AddMeal/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"enterprise-java-task",
+										"api",
+										"owner",
+										"AddMeal",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateMeal",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"MMMMM\",\r\n    \"price\":1000\r\n} ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/enterprise-java-task/api/owner/1/AddMeal/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"enterprise-java-task",
+										"api",
+										"owner",
+										"1",
+										"AddMeal",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "SignIN",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/owner/signIN",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"owner",
+								"signIN"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SignUP",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\":\"MEDO\",\r\n        \"email\": \"MEDO@77\",\r\n        \"password\": \"125medo\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/owner/signUP",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"owner",
+								"signUP"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddRestaurant",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"MC\",\r\n  \"ownerId\":1,\r\n    \"meals\": [\r\n    {\r\n      \"name\": \"BigMAC\",\r\n      \"price\": 100\r\n\r\n    },\r\n    {\r\n      \"name\": \"BIG TESTY\",\r\n      \"price\": 150\r\n    }\r\n   ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/owner/AddResturant",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"owner",
+								"AddResturant"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetResturantByID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/owner/showResByID/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"owner",
+								"showResByID",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ResturantReport",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/owner/ReportResByID/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"owner",
+								"ReportResByID",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RunnerRoles",
+			"item": [
+				{
+					"name": "SignUp",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\":\"nada\",\r\n        \"email\": \"nada@77\",\r\n        \"password\": \"125\",\r\n        \"delivery_fees\":220.5\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/runner/signUP",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"runner",
+								"signUP"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SignIn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"email\": \"nada@77\",\r\n        \"password\": \"125\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/runner/signIN",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"runner",
+								"signIN"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MarkYourOrder",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/runner/mark",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"runner",
+								"mark"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NumberOfTrips",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/enterprise-java-task/api/runner/Trips",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"enterprise-java-task",
+								"api",
+								"runner",
+								"Trips"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+# Created by buildmetadata-maven-plugin 1.7.0 ( SHA: 6f444cae ) 
+build.maven.version=3.8.7
+build.version=1.0
+build.java.vm=Java HotSpot(TM) 64-Bit Server VM
+build.version.full=1.0
+build.java.compiler=HotSpot 64-Bit Tiered Compilers
+build.maven.execution.cmdline=C\:\\Users\\Mohamed Anas\\eclipse\\jee-2023-032\\eclipse\\\\plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -os win32 -ws win32 -arch x86_64 -showsplash C\:\\Users\\Mohamed Anas\\.p2\\pool\\plugins\\org.eclipse.epp.package.common_4.27.0.20230309-1200\\splash.bmp -launcher C\:\\Users\\Mohamed Anas\\eclipse\\jee-2023-032\\eclipse\\eclipse.exe -name Eclipse --launcher.library C\:\\Users\\Mohamed Anas\\.p2\\pool\\plugins\\org.eclipse.equinox.launcher.win32.win32.x86_64_1.2.700.v20221108-1024\\eclipse_11801.dll -startup C\:\\Users\\Mohamed Anas\\eclipse\\jee-2023-032\\eclipse\\\\plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar --launcher.appendVmargs -exitdata 259c_150 -product org.eclipse.epp.package.jee.product -vm C\:/Program Files/Java/jdk-17.0.2/bin/java.exe -vmargs -Dosgi.requiredJavaVersion\=17 -Dosgi.instance.area.default\=@user.home/eclipse-workspace -Dosgi.dataAreaRequiresExplicitInit\=true -Dorg.eclipse.swt.graphics.Resource.reportNonDisposed\=true -Dsun.java.command\=Eclipse -Xms256m -Xmx2048m -XX\:+UseG1GC -XX\:+UseStringDeduplication --add-modules\=ALL-SYSTEM -Declipse.p2.max.threads\=10 -Doomph.update.url\=https\://download.eclipse.org/oomph/updates/milestone/latest -Doomph.redirection.index.redirection\=index\:/->http\://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/ --add-opens\=java.base/java.io\=ALL-UNNAMED --add-opens\=java.base/sun.nio.ch\=ALL-UNNAMED --add-opens\=java.base/java.net\=ALL-UNNAMED --add-opens\=java.base/sun.security.ssl\=ALL-UNNAMED --add-opens\=java.base/java.security\=ALL-UNNAMED --add-opens\=jdk.internal.jvmstat/sun.jvmstat.monitor\=ALL-UNNAMED -Dorg.eclipse.cdt.core.graceful_exit_time_ms\=60000 -jar C\:\\Users\\Mohamed Anas\\eclipse\\jee-2023-032\\eclipse\\\\plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+build.groupId=com.lab.task
+build.java.vendor=Oracle Corporation
+build.java.runtime.name=Java(TM) SE Runtime Environment
+build.java.runtime.version=17.0.2+8-LTS-86
+build.artifactId=enterprise-java-task
